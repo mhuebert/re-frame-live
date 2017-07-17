@@ -1,0 +1,8 @@
+.cljs_live_planck_cache
+/*.log
+/target
+/*-init.clj
+/resources/public/js/compiled
+out
+.idea
+*.iml
