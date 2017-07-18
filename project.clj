@@ -17,7 +17,7 @@
   :profiles
   {:dev
    {:dependencies [[binaryage/devtools "0.8.2"]
-                   [cljs-live "0.1.20"]]
+                   [cljs-live "0.1.21"]]
 
     :plugins      [[lein-figwheel "0.5.11"]]
     }}
