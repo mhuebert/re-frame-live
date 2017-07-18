@@ -44,15 +44,16 @@
   [:div {:key   time
          :style {:padding    10
                  :border-top "4px solid #eee"
-                 :margin     10}}
+                 :margin-top 10}}
    (if error (str error)
              value)])
 
 (defn main-panel []
   [:div
-   [:div "Press Ctrl-Enter to eval."]
-   [:textarea {:style       {:width 400
+   [:div {:style {:margin-top 10}} "Press Ctrl-Enter to eval."]
+   [:textarea {:style       {:width  400
                              :height 140
+                             :margin-top 10
                              :border "4px solid #eee"}
                :on-key-down #(when (and (= 13 (.-keyCode %))
                                         (.-ctrlKey %))
